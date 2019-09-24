@@ -1,0 +1,49 @@
+baseURL = "https://shellcromancer.io/"
+title = "shellcromancer"
+theme = 'ghostwriter'
+languageCode = "en-us"
+copyright = "shellcromancer"
+
+enableEmoji = true
+
+enableRobotsTXT = true
+
+[Author]
+	name = "shellcromancer"
+
+[params]
+	mainSections = ["posts"]
+	intro = true
+	headline = "shellcromancer.io"
+	description = "musings from a continual security n00b"
+	enableEmoji = true
+	
+	# Social Media Links
+    twitter    = "https://twitter.com/shellcromancer"
+    github     = "https://github.com/shellcromancer"
+	shareTwitter    = false
+	shareFacebook   = false
+	shareGooglePlus = false
+
+	# Credits line configuration
+    copyrightBy = "shellcromancer"
+    copyrightUseCurrentYear = true 
+    creditsText = "Bilberry Hugo Theme"
+    creditsUrl = "https://github.com/Lednerb/bilberry-hugo-theme"
+
+	# Reader Settings
+	readingTime = true
+	readingTimeText = "Estimated reading time -"
+
+[Permalinks]
+	post = "/:year/:month/:day/:filename/"
+
+[[menu.main]]
+	name = "Blog"
+	url = "/"
+	weight = 1
+
+[[menu.main]]
+	name = "About"
+	url = "/about/"
+	weight = 2
