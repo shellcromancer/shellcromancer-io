@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>shellcromancer</title>
+    <link>https://shellcromancer.io/</link>
+    <description>Recent content on shellcromancer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>shellcromancer</copyright>
+    <lastBuildDate>Sat, 21 Sep 2019 21:43:54 -0700</lastBuildDate>
+    
+	<atom:link href="https://shellcromancer.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>https://shellcromancer.io/about/</link>
+      <pubDate>Sat, 21 Sep 2019 21:43:54 -0700</pubDate>
+      
+      <guid>https://shellcromancer.io/about/</guid>
+      <description>Hello 👋 I&amp;rsquo;m a security engineer @Cloudflare working on the detection &amp;amp; response team. I spend lots of time researching macOS/iOS security, and looking into new network protocols. I volunteer with @wrccdc and we can always use more people/money 😉&amp;hellip;
+If I&amp;rsquo;m not at my computer, then I&amp;rsquo;ll be out bouldering or eating expensive food.
+Reach out via DM on twitter, or messaging on keybase.io.</description>
+    </item>
+    
+    <item>
+      <title>Building Out A CCDC Team</title>
+      <link>https://shellcromancer.io/posts/building-out-a-ccdc-team/</link>
+      <pubDate>Fri, 17 May 2019 09:00:00 -0700</pubDate>
+      
+      <guid>https://shellcromancer.io/posts/building-out-a-ccdc-team/</guid>
+      <description>This post is going to be about my experience with the Collegic Cyber Defense Competiton (CCDC) as a general competitor but more as a captain last year.
+For those not familar with the CCDC compeition this is an event where a team of 8 students act as the defensive blue team to secure and administer a horribly insecure network. At the same time we start with the defense of this network there is an Agressive and Advanced Persistent Threat (AAPT, coined by @1njection).</description>
+    </item>
+    
+  </channel>
+</rss>
