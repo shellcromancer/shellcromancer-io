@@ -5,10 +5,16 @@ Static blog site using Hugo to generate the content from markdown files & using 
 ## All you need to know
 
 Make sure to clone with submodules.
-Cloning: `git clone --recurse-submodules git@github.com:shellcromancer/shellcromancer-io.git`
+```
+git clone --recurse-submodules git@github.com:shellcromancer/shellcromancer-io.git
+```
 
 Generating the Hugo Site.
-Generation: `hugo`
+```
+hugo
+```
 
 Deploying w/ Cloudflare Wrangler.
-Deployment: `wrangler publish`
+```
+wrangler publish
+```
