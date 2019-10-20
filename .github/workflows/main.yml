@@ -10,7 +10,11 @@ jobs:
     runs-on: ubuntu-latest
     name: Deploy
     steps:
-      - uses: actions/checkout@master
+      - name: Checkout master
+        uses: actions/checkout@master
+      
+      - name: Checkout submodules
+        uses: textbook/git-checkout-submodule-action@2.0.0
       
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2.2.2
