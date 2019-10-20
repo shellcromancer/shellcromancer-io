@@ -1,0 +1,27 @@
+name: Deploy Site
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    name: Deploy
+    steps:
+      - uses: actions/checkout@master
+      
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2.2.2
+        with:
+          hugo-version: 'latest'
+
+      - name: Build site
+        run: hugo --gc --minify
+
+      - name: Publish site to CF Workers Sites
+        uses: signalnerve/wrangler-action@0.1.4
+        with:
+          apiKey: ${{ secrets.apiKey }}
+          email: ${{ secrets.email }}
