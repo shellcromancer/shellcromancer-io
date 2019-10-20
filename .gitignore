@@ -1,5 +1,6 @@
 # Hugo Files
 public/
+resources/
 
 # CF Workers Sites
 workers-site/node_modules

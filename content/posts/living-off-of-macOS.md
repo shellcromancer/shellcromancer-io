@@ -16,6 +16,7 @@ Example uses:
 * `dscl . -
 * `dscl . -read /Users/$(whoami)`
 * `dscl . -write /`TODO
+* `dscl . -read /Users/`whoami` LinkedIdentity`
 
 #### log
 Starting in macOS 10.12 (High Sierra), the logging system shifted to using `os_log` API for the system logging which reduced the number of logs written to disk as they would be stored in memory. The `log` command or Console.app can be used to read these logs. The default behavior of the log command can be altered by using a `~/.logrc` file in the users home.
@@ -44,11 +45,19 @@ Example uses:
 #### plutil
 Apple stores many configuration files as property lists which can be be stored as XML, JSON, or a binary format. `plutil` can lint, display and modify these `.plist` files.
 
-Exaples:
+Examples:
 
 * `plutil <file>.plist` - Lint the sytax of the file.
 * `plutil -p <file>.plust` - Print the file to stdout.
 * `plutil -convert [xml]|[json] <file>.plist` Converts files to a new format.
+
+#### scutil
+Provides a CLI to the data stored by configd(8).
+
+Examples: 
+
+* `scutil --dns` - Grab DNS configuraion for the system
+* 
 
 
 #### security
