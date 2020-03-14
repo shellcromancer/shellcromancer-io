@@ -1,7 +1,7 @@
 account_id = "30ab49a04c949df1f783dbfcfef17205"
 name = "blog"
 type = "webpack"
-route = "*shellcromancer.io/"
+route = "*shellcromancer.io/*"
 workers_dev = false
 zone_id = "0406ec8a6c04cec5b4d694dd9b36a0e8"
 
