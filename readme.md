@@ -1,5 +1,7 @@
 # Shellcromancer.io Blog
 
+![Deploy Site](https://github.com/shellcromancer/shellcromancer-io/workflows/Deploy%20Site/badge.svg)
+
 Static blog site using Hugo to generate the content from markdown files & using Cloudflare Workers Sites to deploy it.
 
 ## All you need to know

@@ -25,7 +25,6 @@ jobs:
         run: hugo --gc --minify
 
       - name: Publish site to CF Workers Sites
-        uses: signalnerve/wrangler-action@0.1.4
+        uses: cloudflare/wrangler-action@1.1.0
         with:
-          apiKey: ${{ secrets.apiKey }}
-          email: ${{ secrets.email }}
+          apiToken: ${{ secrets.scopedToken }}
