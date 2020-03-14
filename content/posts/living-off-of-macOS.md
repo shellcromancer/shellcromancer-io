@@ -1,7 +1,6 @@
 ---
 title: "Living off the land in MacOS"
 date: 2019-09-21T22:24:42-07:00
-draft: true
 tags: ['macOS']
 noSummary: false
 ---
